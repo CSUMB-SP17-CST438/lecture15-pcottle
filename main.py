@@ -9,10 +9,13 @@ def getCheese():
 def getSauce():
     return 'some basic Marinara sauce'
 
+def getPepperoni():
+    return "SO MUCH PEPPERONI"
 def getIngredients():
     return [
         getCheese(),
-        getSauce()
+        getSauce(),
+        getPepperoni()
     ]
 
 def printPizza():
