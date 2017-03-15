@@ -1,22 +1,16 @@
-# Alright lets make a pizza!
-
-
 from __future__ import print_function
 import random
 
-import random
+
+def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(3,10)
+    
 def getCheese():
     return 'A bit of Mozzarella cheese'
 
 def getSauce():
     return 'some basic Marinara sauce'
-    
-def getPeperroni():
-    return '%d pepperoni slices' % random.randrange(1,10)
-
-def getPepperoni():
-    return '%d pepperoni slices' % random.randrange(3, 200)
-
+ 
 def getIngredients():
     return [
         getCheese(),
