@@ -2,6 +2,10 @@
 # Alright lets make a pizza!
 
 from __future__ import print_function
+import random
+
+def getPepperoni():
+    return str(random.randint(0,2500)) + ' pepperoni'
 
 def getCheese():
     return 'A bit of Mozzarella cheese'
@@ -12,7 +16,8 @@ def getSauce():
 def getIngredients():
     return [
         getCheese(),
-        getSauce()
+        getSauce(),
+        getPepperoni()
     ]
 
 def printPizza():
