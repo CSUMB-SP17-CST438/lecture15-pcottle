@@ -13,9 +13,13 @@ def getSauce():
 
 def getPepperoni():
 <<<<<<< HEAD
+<<<<<<< HEAD
     return "SO MUCH PEPPERONI"
 =======
     return '%d pepperoni slices' % random.randrange(3, 10)
+=======
+    return '%d pepperoni slices' % random.randrange(3, 400)
+>>>>>>> origin/evenMorePepperoni
 
 >>>>>>> origin/addPepperoni
 def getIngredients():
