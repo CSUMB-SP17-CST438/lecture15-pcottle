@@ -13,6 +13,12 @@ def getCheese():
 def getSauce():
     return 'some basic Marinara sauce'
 
+<<<<<<< HEAD
+=======
+def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(3, 400)
+
+>>>>>>> origin/evenMorePepperoni
 def getIngredients():
     return [
         getCheese(),
