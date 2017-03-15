@@ -12,8 +12,10 @@ def getSauce():
     
 import random
 
-def getPeperoni():
-    return '%d pepperoni slices' % random.randrange(3, 10)
+
+def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(1, 3)
+
 
 def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 400)
