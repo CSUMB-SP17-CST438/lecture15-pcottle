@@ -7,6 +7,9 @@ import random
 def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 10)
 
+def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(3,10)
+    
 def getCheese():
     return 'A bit of Mozzarella cheese'
 
