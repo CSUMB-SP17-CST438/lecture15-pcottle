@@ -1,4 +1,4 @@
-
+import random
 # Alright lets make a pizza!
 
 
@@ -9,21 +9,30 @@ def getCheese():
     return 'A bit of Mozzarella cheese'
 
 def getSauce():
-    return 'some basic Marinara sauce'
+    return 'some fire hot sauee!!!'
 
 def getPepperoni():
+<<<<<<<<< saved version
 <<<<<<< HEAD
     return '%d pepperoni slices' % random.randrange(3, 200)
 
 =======
     return '%d pepperoni slices' % random.randrange(1, 3)
 >>>>>>> origin/lessPepperoni
+=========
+    return '%d pepperoni slices' % random.randrange(1, 3)
+>>>>>>>>> local version
 
 def getIngredients():
     return [
         getCheese(),
-        getSauce(),
-        getPepperoni()
+    return '%d pepperoni slices' % random.randrange(1, 3)
+
+def getIngredients():
+    return [
+        getCheese(),
+        getPepperoni(),
+        getSauce()
     ]
 
 def printPizza():
