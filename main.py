@@ -14,10 +14,6 @@ import random
 
 
 def getPepperoni():
-    return '%d pepperoni slices' % random.randrange(1, 3)
-
-
-def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 400)
 
 
