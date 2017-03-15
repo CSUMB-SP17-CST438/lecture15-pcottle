@@ -1,6 +1,5 @@
 # Alright lets make a pizza!
 
-
 from __future__ import print_function
 
 import random
