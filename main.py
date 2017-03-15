@@ -12,16 +12,8 @@ def getSauce():
     return 'some fire hot sauee!!!'
 
 def getPepperoni():
-<<<<<<<<< saved version
-<<<<<<< HEAD
     return '%d pepperoni slices' % random.randrange(3, 200)
 
-=======
-    return '%d pepperoni slices' % random.randrange(1, 3)
->>>>>>> origin/lessPepperoni
-=========
-    return '%d pepperoni slices' % random.randrange(1, 3)
->>>>>>>>> local version
 
 def getIngredients():
     return [
