@@ -15,7 +15,7 @@ def getPeperroni():
     return '%d pepperoni slices' % random.randrange(1,10)
 
 def getPepperoni():
-    return '%d pepperoni slices' % random.randrange(3, 400)
+    return '%d pepperoni slices' % random.randrange(1, 3)
 
 def getIngredients():
     return [
