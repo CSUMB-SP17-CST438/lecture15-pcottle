@@ -5,7 +5,7 @@
 from __future__ import print_function
 import random
 
-def getPepperoni():
+def getPepperoni2():
     return str(random.randint(0,2500)) + ' pepperoni'
 
 import random
@@ -16,7 +16,7 @@ def getSauce():
     return 'some basic Marinara sauce'
 
 def getPepperoni():
-    return '%d pepperoni slices' % random.randrange(3, 400)
+    return '%d pepperoni slices' % random.randrange(1, 3)
 
 def getIngredients():
     return [
